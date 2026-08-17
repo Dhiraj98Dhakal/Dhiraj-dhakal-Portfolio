@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Dhiraj Dhakal — Developer | BICTE Student | Digital Creator</title>
+    <meta name="description" content="Personal portfolio of Dhiraj Dhakal — BICTE student, developer, digital creator, and technology enthusiast from Nepal." />
+    <meta name="author" content="Dhiraj Dhakal" />
+    <meta name="theme-color" content="#0A0D12" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Dhiraj Dhakal — Developer | BICTE Student | Digital Creator" />
+    <meta property="og:description" content="Personal portfolio of Dhiraj Dhakal — BICTE student, developer, digital creator, and technology enthusiast from Nepal." />
+    <meta property="og:image" content="/images/og-cover.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Dhiraj Dhakal — Developer | BICTE Student | Digital Creator" />
+    <meta name="twitter:description" content="Personal portfolio of Dhiraj Dhakal — BICTE student, developer, digital creator, and technology enthusiast from Nepal." />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <script>
+      // Apply the saved theme before first paint to avoid a flash of the
+      // wrong theme. Mirrors the logic in src/hooks/useTheme.jsx.
+      (function () {
+        try {
+          var saved = localStorage.getItem("dd-portfolio-theme") || "dark";
+          var resolved =
+            saved === "system"
+              ? window.matchMedia("(prefers-color-scheme: light)").matches
+                ? "light"
+                : "dark"
+              : saved;
+          document.documentElement.classList.add(resolved);
+        } catch (e) {
+          document.documentElement.classList.add("dark");
+        }
+      })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
