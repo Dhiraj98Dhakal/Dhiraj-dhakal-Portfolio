@@ -6,7 +6,7 @@ export const siteConfig = {
   // public repositories from api.github.com. Set this to your GitHub
   // username. If the request fails or the username is left as-is, the
   // section falls back to the manually curated projects in projects.js.
-  githubUsername: "YOUR_GITHUB_USERNAME",
+  githubUsername: "Dhiraj98Dhakal",
 
   // Shown in the browser tab / used for SEO tags in index.html.
   title: "Dhiraj Dhakal — Developer | BICTE Student | Digital Creator",
@@ -15,5 +15,5 @@ export const siteConfig = {
 
   // Used to build absolute canonical / OG URLs. Update once you know your
   // final GitHub Pages URL or custom domain.
-  siteUrl: "https://YOUR_GITHUB_USERNAME.github.io/portfolio/",
+  siteUrl: "https://Dhiraj98Dhakal.github.io/portfolio/",
 };

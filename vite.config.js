@@ -9,5 +9,5 @@ import tailwindcss from '@tailwindcss/vite'
 // custom domain, change base to '/'.
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/portfolio/',
+  base: '/Dhiraj-dhakal-Portfolio/',
 })
